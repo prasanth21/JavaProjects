@@ -7,6 +7,7 @@ import com.tcs.employeecrud.model.Employee;
 import com.tcs.employeecrud.persistence.EmployeeDAO;
 import com.tcs.employeecrud.persistence.EmployeeDAOImpl;
 
+// This is Service Impl class
 public class EmployeeServiceImpl implements EmployeeService{
 
 	EmployeeDAO dao = new EmployeeDAOImpl();
